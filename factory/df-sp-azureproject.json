@@ -1,0 +1,15 @@
+{
+	"name": "df-sp-azureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "81c221bf-4ef3-4ad6-b7d5-3178d2178249",
+		"tenantId": "ae145aea-cdb2-446a-b05a-7858dde5ddba"
+	}
+}
