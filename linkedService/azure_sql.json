@@ -1,0 +1,17 @@
+{
+	"name": "azure_sql",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "spazureprojectserver.database.windows.net",
+			"database": "spazureproject",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "blooms",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDJDQjZGOUUxLTRCRjQtNDQ5Mi1CNDgzLTNCMkIyM0ZFOEU3MF8zMzBlZDM0Mi1jZjRjLTQ0NDAtYmEyYS03MzE1NDE1MmUyN2MiDQp9"
+		}
+	}
+}
